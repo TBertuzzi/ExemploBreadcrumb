@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Page:BasePage   xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+            xmlns:Page="clr-namespace:ExemploBreadcrumb.Views"
+                   Title="Inicio"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="ExemploBreadcrumb.MainPage">
+
+     <Page:BasePage.BasePageContent>
+        <Button Margin="25"
+                Clicked="Button_Clicked"
+                HorizontalOptions="CenterAndExpand"
+                Text="Proxima Pagina"
+                VerticalOptions="Center" />
+    </Page:BasePage.BasePageContent>
+</Page:BasePage>

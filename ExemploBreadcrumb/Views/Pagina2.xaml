@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Page:BasePage xmlns="http://xamarin.com/schemas/2014/forms"
+               xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:Page="clr-namespace:ExemploBreadcrumb.Views"
+              Title="Pagina 2"
+               x:Class="ExemploBreadcrumb.Pagina2">
+
+     <Page:BasePage.BasePageContent>
+       
+    <Label Text="Pagina 2" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+    </Page:BasePage.BasePageContent>
+</Page:BasePage>

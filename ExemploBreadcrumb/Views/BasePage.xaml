@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:breadcrumb="clr-namespace:Breadcrumb;assembly=Xamarin.Forms.Breadcrumb" x:Class="ExemploBreadcrumb.Views.BasePage">
+    <ContentPage.Content>
+        <StackLayout>
+            <!-- Breadcrumb -->
+            <breadcrumb:Breadcrumb Padding="15" VerticalOptions="Start" />
+
+             <!-- Imagem Primeiro Breadcrumb -->
+            <breadcrumb:Breadcrumb Padding="15" VerticalOptions="Start">
+                <breadcrumb:Breadcrumb.FirstBreadCrumb>
+                    <FileImageSource File="Rocket.png" />
+                </breadcrumb:Breadcrumb.FirstBreadCrumb>
+            </breadcrumb:Breadcrumb>
+
+               <breadcrumb:Breadcrumb Padding="15" VerticalOptions="Start">
+                <breadcrumb:Breadcrumb.Separator>
+                    <UriImageSource Uri="https://cdn.iconscout.com/icon/free/png-256/xamarin-4-599473.png" />
+                </breadcrumb:Breadcrumb.Separator>
+            </breadcrumb:Breadcrumb>
+
+            <!-- Conteudo da Sua Pagina -->
+            <StackLayout x:Name="BaseContent"
+                         HorizontalOptions="FillAndExpand"
+                         VerticalOptions="FillAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+
