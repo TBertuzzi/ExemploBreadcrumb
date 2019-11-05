@@ -14,7 +14,8 @@
                 </breadcrumb:Breadcrumb.FirstBreadCrumb>
             </breadcrumb:Breadcrumb>
 
-               <breadcrumb:Breadcrumb Padding="15" VerticalOptions="Start">
+            <!-- Alterando o Separator -->
+            <breadcrumb:Breadcrumb Padding="15" VerticalOptions="Start">
                 <breadcrumb:Breadcrumb.Separator>
                     <UriImageSource Uri="https://cdn.iconscout.com/icon/free/png-256/xamarin-4-599473.png" />
                 </breadcrumb:Breadcrumb.Separator>
